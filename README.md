@@ -51,6 +51,11 @@ Then inside your didFinishLaunching method change your Pushy.setNotifcicationHan
 
 	Pushy.SetNotificationHandler(HandleNotification); 
 
+YOu will also need to include these in the appDelegate class
+
+	using System.Runtime.InteropServices;
+	using ObjCRuntime;
+
 
 
 
