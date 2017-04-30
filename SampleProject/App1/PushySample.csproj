@@ -23,8 +23,10 @@
     <ConsolePause>false</ConsolePause>
     <MtouchArch>x86_64</MtouchArch>
     <MtouchLink>None</MtouchLink>
-    <MtouchDebug>true</MtouchDebug>
+    <MtouchDebug>True</MtouchDebug>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <IOSDebugOverWiFi>False</IOSDebugOverWiFi>
+    <IOSDebuggerPort>10000</IOSDebuggerPort>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -137,6 +139,34 @@
     </Reference>
     <Reference Include="Xamarin.Swift3.Darwin, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.Swift3.Darwin.3.0.2\lib\xamarinios10\Xamarin.Swift3.Darwin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Swift3.Dispatch, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Swift3.Dispatch.3.0.2\lib\xamarinios10\Xamarin.Swift3.Dispatch.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Swift3.Foundation, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Swift3.Foundation.3.0.2\lib\xamarinios10\Xamarin.Swift3.Foundation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Swift3.Intents, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Swift3.Intents.3.0.2\lib\xamarinios10\Xamarin.Swift3.Intents.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Swift3.ObjectiveC, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Swift3.ObjectiveC.3.0.2\lib\xamarinios10\Xamarin.Swift3.ObjectiveC.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Swift3.OS, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Swift3.OS.3.0.2\lib\xamarinios10\Xamarin.Swift3.OS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Swift3.QuartzCore, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Swift3.QuartzCore.3.0.2\lib\xamarinios10\Xamarin.Swift3.QuartzCore.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Xamarin.Swift3.UIKit, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Swift3.UIKit.3.0.2\lib\xamarinios10\Xamarin.Swift3.UIKit.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
