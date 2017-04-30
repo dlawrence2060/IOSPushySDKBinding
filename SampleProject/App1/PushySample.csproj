@@ -12,7 +12,33 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
-   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchArch>x86_64</MtouchArch>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <MtouchDebug>True</MtouchDebug>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <IOSDebugOverWiFi>False</IOSDebugOverWiFi>
+    <IOSDebuggerPort>10000</IOSDebuggerPort>
+    <MtouchProfiling>False</MtouchProfiling>
+    <MtouchFastDev>False</MtouchFastDev>
+    <MtouchNoSymbolStrip>False</MtouchNoSymbolStrip>
+    <MtouchUseLlvm>False</MtouchUseLlvm>
+    <MtouchUseThumb>False</MtouchUseThumb>
+    <MtouchEnableBitcode>False</MtouchEnableBitcode>
+    <MtouchUseSGen>True</MtouchUseSGen>
+    <MtouchUseRefCounting>False</MtouchUseRefCounting>
+    <OptimizePNGs>True</OptimizePNGs>
+    <MtouchFloat32>False</MtouchFloat32>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
@@ -129,6 +155,9 @@
       <HintPath>..\packages\Xamarin.Swift3.Dispatch.3.0.2\lib\xamarinios10\Xamarin.Swift3.Dispatch.dll</HintPath>
       <Private>True</Private>
     </Reference>
+	<Reference Include="PushyBindings">
+      <HintPath>Frameworks\PushyBindings.dll</HintPath>
+    </Reference>
     <Reference Include="Xamarin.Swift3.Foundation, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.Swift3.Foundation.3.0.2\lib\xamarinios10\Xamarin.Swift3.Foundation.dll</HintPath>
       <Private>True</Private>
@@ -152,9 +181,6 @@
     <Reference Include="Xamarin.Swift3.UIKit, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.Swift3.UIKit.3.0.2\lib\xamarinios10\Xamarin.Swift3.UIKit.dll</HintPath>
       <Private>True</Private>
-    </Reference>
-    <Reference Include="PushyBindings">
-      <HintPath>Frameworks\PushyBindings.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
