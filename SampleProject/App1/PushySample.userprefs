@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{3FB22A8D-00B6-4A6D-B7FD-54A03536C89C}|Default">
+  <MonoDevelop.Ide.ItemProperties.PushySample PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.60393CD6-AB46-4F11-B288-346E047CDCC3" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppDelegate.cs">
+    <Files>
+      <File FileName="AppDelegate.cs" Line="6" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PushySample" expanded="True">
+            <Node name="PushySample" expanded="True" selected="True">
+              <Node name="References" expanded="True" />
+              <Node name="Packages" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

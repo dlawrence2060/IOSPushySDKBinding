@@ -3,6 +3,7 @@ using UIKit;
 using System.Runtime.InteropServices;
 using ObjCRuntime;
 using System;
+using PushySDK;
 
 namespace App1
 {

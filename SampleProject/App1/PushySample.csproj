@@ -27,6 +27,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <IOSDebugOverWiFi>False</IOSDebugOverWiFi>
     <IOSDebuggerPort>10000</IOSDebuggerPort>
+<<<<<<< Updated upstream
     <MtouchProfiling>False</MtouchProfiling>
     <MtouchFastDev>False</MtouchFastDev>
     <MtouchNoSymbolStrip>False</MtouchNoSymbolStrip>
@@ -37,6 +38,9 @@
     <MtouchUseRefCounting>False</MtouchUseRefCounting>
     <OptimizePNGs>True</OptimizePNGs>
     <MtouchFloat32>False</MtouchFloat32>
+=======
+    <CodesignKey>iPhone Developer</CodesignKey>
+>>>>>>> Stashed changes
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>none</DebugType>
@@ -178,6 +182,9 @@
     <Reference Include="Xamarin.Swift3.UIKit, Version=3.0.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.Swift3.UIKit.3.0.2\lib\xamarinios10\Xamarin.Swift3.UIKit.dll</HintPath>
       <Private>True</Private>
+    </Reference>
+    <Reference Include="PushyBindings">
+      <HintPath>Frameworks\PushyBindings.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
