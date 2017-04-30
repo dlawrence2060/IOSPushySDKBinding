@@ -78,6 +78,7 @@ namespace App1
             return true;
         }
 
+        [Export("applicationWillResignActive:")]
         public void OnResignActivation(UIApplication application)
         {
             // Invoked when the application is about to move from active to inactive state.
@@ -86,28 +87,33 @@ namespace App1
             // Games should use this method to pause the game.
         }
 
+        [Export("applicationDidEnterBackground:")]
         public void DidEnterBackground(UIApplication application)
         {
             // Use this method to release shared resources, save user data, invalidate timers and store the application state.
             // If your application supports background exection this method is called instead of WillTerminate when the user quits.
         }
 
+        [Export("applicationWillEnterForeground:")]
         public void WillEnterForeground(UIApplication application)
         {
             // Called as part of the transiton from background to active state.
             // Here you can undo many of the changes made on entering the background.
         }
 
+        [Export("applicationDidBecomeActive:")]
         public void OnActivated(UIApplication application)
         {
             // Restart any tasks that were paused (or not yet started) while the application was inactive. 
             // If the application was previously in the background, optionally refresh the user interface.
         }
 
+        [Export("applicationWillTerminate:")]
         public void WillTerminate(UIApplication application)
         {
             // Called when the application is about to terminate. Save data, if needed. See also DidEnterBackground.
         }
+
         private void InitPushy(UIApplication application)
         {
             pushy = new Pushy(this, application);
