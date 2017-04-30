@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.PushySample PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.60393CD6-AB46-4F11-B288-346E047CDCC3" />
   <MonoDevelop.Ide.Workbench ActiveDocument="AppDelegate.cs">
     <Files>
-      <File FileName="AppDelegate.cs" Line="6" Column="16" />
+      <File FileName="AppDelegate.cs" Line="8" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
