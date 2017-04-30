@@ -2,15 +2,17 @@
   <MonoDevelop.Ide.ItemProperties.PushySample PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.60393CD6-AB46-4F11-B288-346E047CDCC3" />
   <MonoDevelop.Ide.Workbench ActiveDocument="AppDelegate.cs">
     <Files>
-      <File FileName="AppDelegate.cs" Line="8" Column="15" />
+      <File FileName="AppDelegate.cs" Line="50" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PushySample" expanded="True">
-            <Node name="PushySample" expanded="True" selected="True">
+            <Node name="PushySample" expanded="True">
               <Node name="References" expanded="True" />
               <Node name="Packages" expanded="True" />
+              <Node name="Resources" expanded="True" />
+              <Node name="AppDelegate.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -19,7 +21,10 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/derek/IOSPushySDKBinding/SampleProject/App1/AppDelegate.cs" relfile="AppDelegate.cs" line="30" column="1" />
+      <Breakpoint file="/Users/derek/IOSPushySDKBinding/SampleProject/App1/AppDelegate.cs" relfile="AppDelegate.cs" line="64" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
